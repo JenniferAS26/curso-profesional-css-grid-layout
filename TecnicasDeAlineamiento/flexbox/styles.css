@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    font-family: 'Lato', sans-serif;
+    width: 550px;
+}
+.container1, .container2, .container3, .container4, .container5, .container6, .container7, .container8, .container9 {
+    background: turquoise;
+    width: 180px;
+    height: 180px;
+}
+.element1, .element2, .element3 {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.element1 {
+    background: papayawhip;
+}
+.element2 {
+    background: pink;
+}
+.element3 {
+    background: lightcyan;
+}
+.container1 {
+    display: flex;
+    justify-content: flex-start; /* Horizontal */
+    align-items: flex-start; /* Vertical */
+    /* Tanto horizontal como vertical lo coloque al inicio de la web */
+}
+.container2 {
+    display: flex;
+    justify-content: flex-start; /* Horizontal */
+    align-items: center; /* Vertical */
+}
+.container3 {
+    display: flex;
+    justify-content: flex-start; /* Horizontal */
+    align-items: flex-end; /* Vertical */
+}
+.container4 {
+    display: flex;
+    justify-content: center; /* Horizontal */
+    align-items: flex-start; /* Vertical */
+}
+.container5 {
+    display: flex;
+    justify-content: center; /* Horizontal */
+    align-items: center; /* Vertical */
+}
+.container6 {
+    display: flex;
+    justify-content: center; /* Horizontal */
+    align-items: flex-end; /* Vertical */
+}
+.container7 {
+    display: flex;
+    justify-content: flex-end; /* Horizontal */
+    align-items: flex-start; /* Vertical */
+}
+.container8 {
+    display: flex;
+    justify-content: flex-end; /* Horizontal */
+    align-items: center; /* Vertical */
+}
+.container9 {
+    display: flex;
+    justify-content: flex-end; /* Horizontal */
+    align-items: flex-end; /* Vertical */
+}
